@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LPT6849" failures="2" tests="29" name="Com.AxisBank.QATest.TestCases" time="96.483" errors="0" timestamp="6 Jan 2025 08:30:49 GMT">
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="VerifyTrasactionPage" time="0.229"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="KYC_ScreenTest_Positive" time="4.983"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Entity_Details_POI_Screen" time="11.505">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;xpath&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;//*[@ID=&amp;apos;EntityDetails_checkbox1&amp;apos;]/parent::div&amp;quot;}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;LPT6849&amp;apos;, ip: &amp;apos;192.168.101.141&amp;apos;, os.name: &amp;apos;Windows 11&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;23.0.1&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\NARWAD~1.RAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f011086ab7a98297d4b9ed1ed2a74b1a
+*** Element info: {Using=xpath, value=//*[@ID=&amp;apos;EntityDetails_checkbox1&amp;apos;]/parent::div}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@ID='EntityDetails_checkbox1']/parent::div"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPT6849', ip: '192.168.101.141', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\NARWAD~1.RAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f011086ab7a98297d4b9ed1ed2a74b1a
+*** Element info: {Using=xpath, value=//*[@ID='EntityDetails_checkbox1']/parent::div}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at Com.AxisBankQA.Pages.EntityDetailsPage.select_CheckBox_for_Auth_API(EntityDetailsPage.java:141)
+	at Com.AxisBank.QATest.TestCases.Verify_Entity_Details_POI_Screen(TestCases.java:77)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Entity_Details_POA_Screen" time="0.71"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Credit_Facility_Details_Screen" time="1.556"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Entity_Details_Account_Details_Screen" time="0.866"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Entity_Details_Profile_Sheet_Screen" time="3.425"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Entity_Details_Chennel_Facility_Screen" time="10.073">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;xpath&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;//*[@id=&amp;apos;EntityDetails_checkbox2&amp;apos;]/parent::div/div&amp;quot;}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;LPT6849&amp;apos;, ip: &amp;apos;192.168.101.141&amp;apos;, os.name: &amp;apos;Windows 11&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;23.0.1&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\NARWAD~1.RAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f011086ab7a98297d4b9ed1ed2a74b1a
+*** Element info: {Using=xpath, value=//*[@id=&amp;apos;EntityDetails_checkbox2&amp;apos;]/parent::div/div}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='EntityDetails_checkbox2']/parent::div/div"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPT6849', ip: '192.168.101.141', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\NARWAD~1.RAM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f011086ab7a98297d4b9ed1ed2a74b1a
+*** Element info: {Using=xpath, value=//*[@id='EntityDetails_checkbox2']/parent::div/div}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at Com.AxisBankQA.Pages.EntityDetailsPage.Select_CheckBox_AccountStatement(EntityDetailsPage.java:304)
+	at Com.AxisBank.QATest.TestCases.Verify_Entity_Details_Chennel_Facility_Screen(TestCases.java:138)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_PersoanlDetails" time="5.116"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_BusinessDetails" time="0.613"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_FamilyDetails" time="0.943"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_AddressDetails" time="1.489"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_AddNominee" time="0.307"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_CreditFacilityDetails" time="1.091"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_DebitCardDetails" time="0.199"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_FATCA_Details" time="1.526"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_Add_LOA" time="0.505"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_KYC_Screen" time="1.467"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_Application_DetailsPage_PersonalDetails" time="1.298"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_ApplicationDetailsPage_BusinessDetails" time="0.663"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_ApplicationDetailsPage_FamilyDetails" time="0.583"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_ApplicationDetailsPage_AddressDetails" time="1.392"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_ApplicationDetailsPage_DebitCardDetails" time="0.188"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_ApplicationDetailsPage_FATCA_Details" time="1.698"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="verify_ApplicationReviewPage" time="29.452"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Funding_Page" time="0.884"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_VKYC_Page_SendVKYC" time="0.424"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_VKYC_Page_Verification_Via_Video" time="4.623"/>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ConfigurationPage_AccountDetails" time="4.098"/>
+</testsuite>

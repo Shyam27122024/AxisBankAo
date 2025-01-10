@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)" preserve-order="false">
+    <classes>
+      <class name="Com.AxisBank.QATest.TestCases">
+        <methods>
+          <include name="VerifyTrasactionPage"/>
+          <include name="Verify_ApplicationDetailsPage_FATCA_Details"/>
+          <include name="Verify_LOA_ApplicationDetailsPage_DebitCardDetails"/>
+          <include name="Verify_LOA_ApplicationDetailsPage_FamilyDetails"/>
+          <include name="Verify_ApplicationDetailsPage_FamilyDetails"/>
+          <include name="Verify_Entity_Details_Profile_Sheet_Screen"/>
+          <include name="Verify_ApplicationDetailsPage_CreditFacilityDetails"/>
+          <include name="Verify_VKYC_Page_SendVKYC"/>
+          <include name="Verify_ApplicationDetailsPage_BusinessDetails"/>
+          <include name="Verify_ApplicationDetailsPage_AddNominee"/>
+          <include name="Verify_ConfigurationPage_AccountDetails"/>
+          <include name="Verify_Funding_Page"/>
+          <include name="Verify_ApplicationDetailsPage_DebitCardDetails"/>
+          <include name="verify_ApplicationReviewPage"/>
+          <include name="Verify_Entity_Details_Account_Details_Screen"/>
+          <include name="Verify_LOA_KYC_Screen"/>
+          <include name="Verify_VKYC_Page_Verification_Via_Video"/>
+          <include name="setup"/>
+          <include name="Verify_Entity_Details_POI_Screen"/>
+          <include name="Verify_Credit_Facility_Details_Screen"/>
+          <include name="Verify_Entity_Details_POA_Screen"/>
+          <include name="Verify_LOA_Application_DetailsPage_PersonalDetails"/>
+          <include name="Verify_ApplicationDetailsPage_Add_LOA"/>
+          <include name="Verify_Entity_Details_Chennel_Facility_Screen"/>
+          <include name="Verify_LOA_ApplicationDetailsPage_BusinessDetails"/>
+          <include name="Verify_LOA_ApplicationDetailsPage_FATCA_Details"/>
+          <include name="Verify_ApplicationDetailsPage_AddressDetails"/>
+          <include name="Verify_LOA_ApplicationDetailsPage_AddressDetails"/>
+          <include name="Verify_ApplicationDetailsPage_PersoanlDetails"/>
+          <include name="KYC_ScreenTest_Positive"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

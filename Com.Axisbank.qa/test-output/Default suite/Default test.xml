@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LPT6849" failures="0" tests="29" name="Com.AxisBank.QATest.TestCases" time="2.95" errors="0" timestamp="5 Jan 2025 06:55:33 GMT">
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="@BeforeClass setup" time="0.0">
+    <failure type="java.lang.NoSuchMethodError" message="&amp;apos;org.apache.commons.io.input.UnsynchronizedByteArrayInputStream$Builder org.apache.commons.io.input.UnsynchronizedByteArrayInputStream.builder()&amp;apos;">
+      <![CDATA[java.lang.NoSuchMethodError: 'org.apache.commons.io.input.UnsynchronizedByteArrayInputStream$Builder org.apache.commons.io.input.UnsynchronizedByteArrayInputStream.builder()'
+	at org.apache.poi.openxml4j.util.ZipArchiveFakeEntry.getInputStream(ZipArchiveFakeEntry.java:108)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.getInputStream(ZipInputStreamZipEntrySource.java:112)
+	at org.apache.poi.openxml4j.opc.ZipPackage.getPartsImpl(ZipPackage.java:305)
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:781)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:322)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbookFactory.create(XSSFWorkbookFactory.java:97)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbookFactory.create(XSSFWorkbookFactory.java:36)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.lambda$create$2(WorkbookFactory.java:224)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.wp(WorkbookFactory.java:329)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:224)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+	at Com.AxisBankQA.Utilities.Utils.gettestdata(Utils.java:36)
+	at Com.AxisBankQA.Base.TestBase.CrossBrowserTesting(TestBase.java:28)
+	at Com.AxisBank.QATest.TestCases.setup(TestCases.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:130)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:173)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+    </failure>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="@AfterClass teardown" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="VerifyTrasactionPage" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="KYC_ScreenTest_Positive" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Entity_Details_POI_Screen" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Entity_Details_POA_Screen" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Credit_Facility_Details_Screen" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Entity_Details_Account_Details_Screen" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Entity_Details_Profile_Sheet_Screen" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Entity_Details_Chennel_Facility_Screen" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_PersoanlDetails" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_BusinessDetails" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_FamilyDetails" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_AddressDetails" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_AddNominee" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_CreditFacilityDetails" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_DebitCardDetails" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_FATCA_Details" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ApplicationDetailsPage_Add_LOA" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_KYC_Screen" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_Application_DetailsPage_PersonalDetails" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_ApplicationDetailsPage_BusinessDetails" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_ApplicationDetailsPage_FamilyDetails" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_ApplicationDetailsPage_AddressDetails" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_ApplicationDetailsPage_DebitCardDetails" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_LOA_ApplicationDetailsPage_FATCA_Details" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="verify_ApplicationReviewPage" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_Funding_Page" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_VKYC_Page_SendVKYC" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_VKYC_Page_Verification_Via_Video" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Com.AxisBank.QATest.TestCases" name="Verify_ConfigurationPage_AccountDetails" time="0.002">
+    <skipped/>
+  </testcase>
+</testsuite>

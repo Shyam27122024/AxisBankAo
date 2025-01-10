@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Com.AxisBankQA.Utilities.ExtentReportManager"/>
+  </listeners>
+  <test parallel="none" name="ShyamNarwade(failed)" preserve-order="false">
+    <classes>
+      <class name="Com.AxisBank.QATest.TestCases">
+        <methods>
+          <include name="Verify_Entity_Details_Chennel_Facility_Screen"/>
+          <include name="setup"/>
+          <include name="Verify_Entity_Details_POI_Screen"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

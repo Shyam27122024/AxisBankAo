@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Trial]">
+  <test parallel="none" name="Test(failed)" preserve-order="false">
+    <classes>
+      <class name="Com.AxisBank.QATest.KYC_ScreenTest">
+        <methods>
+          <include name="setup"/>
+          <include name="KYC_ScreenTest_Positive"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+      <class name="Com.AxisBank.QATest.TransactionPageTest">
+        <methods>
+          <include name="verifyTransactionPage"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
